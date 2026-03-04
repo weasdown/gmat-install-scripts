@@ -3,7 +3,9 @@
 
 . ~/.profile
 
-export GMAT_GIT="~/dev/non-OH/gmat/gmat-git"
+user="$(whoami)"
+
+export GMAT_GIT="/home/$user/dev/non-OH/gmat/gmat-git"
 
 export scripts="$GMAT_GIT/../gmat-install-scripts"
 export depends="$GMAT_GIT/depends"
