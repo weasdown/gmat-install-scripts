@@ -1,7 +1,7 @@
 #!/bin/bash
 # Reverts Xerces folder to initial state.
 
-. ./set-variables.sh
+. ../set-variables.sh
 
 export xerces="$depends/xerces"
 
