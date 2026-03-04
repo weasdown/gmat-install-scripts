@@ -3,6 +3,8 @@
 
 . ~/.profile
 
+export GMAT_GIT="~/dev/non-OH/gmat/gmat-git"
+
 export scripts="$GMAT_GIT/../gmat-install-scripts"
 export depends="$GMAT_GIT/depends"
 
@@ -16,3 +18,4 @@ export xerces="$depends/xerces"
 export cores=$(nproc --all) # Number of processor cores.
 
 echo 'All environment variables set.'
+
